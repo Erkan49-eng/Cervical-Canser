@@ -1,5 +1,5 @@
 # ============================================
-# PROJE KÜTÜPHANELERI
+# PROJE KÜTÜPHANELERİ
 # ============================================
 
 # Deep Learning Framework
@@ -20,9 +20,6 @@ Pillow>=8.0.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
 
-# Model Compression (Pruning)
-tensorflow-model-optimization>=0.7.0
-
 # Utilities
 tqdm>=4.60.0
 pyyaml>=5.4.0
@@ -30,3 +27,7 @@ pyyaml>=5.4.0
 # Notebooks (Kaggle kullanımı için)
 jupyter>=1.0.0
 ipython>=7.0.0
+
+# NOT: tensorflow-model-optimization Kaggle'da kurulum hatası verebilir
+# Kaggle Notebook'ta şu komutla yükleyin:
+# !pip install --no-build-isolation tensorflow-model-optimization

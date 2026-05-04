@@ -161,7 +161,7 @@ fine_tuned_model = fine_tune_model(pruned_model, X_train, y_train, epochs=10)
 
 ## 👨‍🏫 Danışman
 
-Proje danışmanı: Siirt Üniversitesi (Yahya Hocam)
+Proje Danışmanı: **Dr. Öğr. Üyesi Yahya DOĞAN** (Siirt Üniversitesi)
 
 ---
 
